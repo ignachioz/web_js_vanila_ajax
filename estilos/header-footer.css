@@ -1,0 +1,92 @@
+html, body{
+    margin:0px;
+    background-color: #B3B3B3;
+}
+/*header*/
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+}
+
+.container-icono{
+    margin-left:10px;
+}
+
+.icono-th{
+    text-decoration: none;
+}
+
+.icono-th{
+    color:rgb(46, 172, 172);
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.navegador {
+    margin-right:25px;
+}
+
+.navegador ul li{
+    display: inline-block;
+    padding-left:20px;
+    
+}
+
+.navegador ul li a{
+    font-family:verdana;
+    text-decoration: none;
+    color:#B3B3B3;
+}
+
+#nav-actual{
+    
+    color:white !important;
+}
+
+.navegador ul li a:active{
+    color:rgb(156, 17, 17)
+}
+
+.navegador ul li a:hover{
+    color:#6b6b6b;
+}
+/*---------------------*/
+/*footer*/
+.footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px; 
+}
+
+.footer p{
+    color:white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container-div-redes{
+    position: absolute;
+    right: 0px;
+    margin-right: 12px;
+}
+
+.container-div-redes a{
+    margin-right: 12px;
+}
+
+.container-div-redes a img{
+    width: 25px;
+    height: 25px;
+}
+/*---------------------*/
